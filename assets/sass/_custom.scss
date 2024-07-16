@@ -1,0 +1,90 @@
+/* General */
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+.logo {
+    width: 35px;
+}
+
+.bg-primary {
+    transition: 1000ms !important;
+}
+
+/* Main */
+/* Carousel */
+.carousel-item img {
+    height: 300px;
+    /* object-fit: cover; */
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item img {
+        height: 500px;
+
+    }
+}
+
+/* Punto 5 - BEM */
+/* Testimonios */
+.testimonials {
+    padding-top: 3rem;
+
+    &__cards {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    &__title {
+        padding-top: 0.5rem;
+        font-size: calc(1.375rem + 1.5vw);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__line {
+        opacity: 100%;
+        margin: 2.5rem 0;
+    }
+}
+
+.custom-card {
+    text-align: center;
+    width: 25%;
+    color: #E2E7CF;
+
+    &__body {
+        margin-bottom: 15px;
+    }
+
+    &__img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border: 2px solid #fff;
+    }
+
+    &__title {
+        margin-top: 15px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    .custom-card {
+        width: 100%;
+        /* padding: 0 25px 1%; */
+        padding: 0 8% 30px;
+    }
+}
+
+/* Footer */
+/* Tooltip */
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-secondary);
+}
