@@ -23,7 +23,6 @@ Este proyecto utiliza las siguientes tecnologías:
 - VS Code
 - Git
 - GitHub
-- GitHub Pages
 
 ## &#129433; Cómo clonar el proyecto
 ```bash
